@@ -2,6 +2,8 @@
 
 A full-stack web application for IT support teams to manage and resolve end-user tickets, with SLA tracking, real-time metrics, and role-based access control.
 
+**Live Demo:** https://helpdesk-frontend-ten-kappa.vercel.app/
+
 ## Live Demo Credentials
 
 | Role  | Email                     | Password     |
