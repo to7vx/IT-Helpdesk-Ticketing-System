@@ -62,9 +62,9 @@ export default function LoginPage() {
         </div>
         <div className="mt-4 card text-xs text-gray-500 space-y-1">
           <div className="font-semibold text-gray-700 mb-1">Demo credentials</div>
-          <div>Admin: <span className="font-mono">admin@helpdesk.local / Admin1234!</span></div>
-          <div>Agent: <span className="font-mono">agent@helpdesk.local / Agent1234!</span></div>
-          <div>User: <span className="font-mono">user@helpdesk.local / User1234!</span></div>
+          <div>Admin: <span className="font-mono">admin@helpdesk.com / Admin1234!</span></div>
+          <div>Agent: <span className="font-mono">agent@helpdesk.com / Agent1234!</span></div>
+          <div>User: <span className="font-mono">user@helpdesk.com / User1234!</span></div>
         </div>
       </div>
     </div>

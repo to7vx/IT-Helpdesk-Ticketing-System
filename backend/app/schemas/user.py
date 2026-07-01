@@ -24,8 +24,11 @@ class UserUpdate(BaseModel):
     notification_in_app: Optional[bool] = None
 
 
-class UserOut(UserBase):
+class UserOut(BaseModel):
     id: int
+    name: str
+    email: str
+    role: UserRole
     is_active: bool
     created_at: datetime
     notification_email: bool
@@ -54,12 +57,12 @@ class TokenData(BaseModel):
 
 
 class LoginRequest(BaseModel):
-    email: EmailStr
+    email: str
     password: str
 
 
 class PasswordResetRequest(BaseModel):
-    email: EmailStr
+    email: str
 
 
 class PasswordReset(BaseModel):
